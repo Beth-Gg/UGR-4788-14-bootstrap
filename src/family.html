@@ -4,64 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="../css/main.css">
+
+
 </head>
 <body>
     <header>
-        <h1>Bethlehem Getachew</h1>
-        <nav>
-            
-                <a href="index.html">HOME</a>
-                <a href="family.html">FAMILY</a>
-                <a href="Education.html">EDUCATION</a>
-                <a href="childhood.html">CHILDHOOD</a>
-                <a href="hobbies.html">HOBBIES</a>
-    
-           
+        <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+            <div class="container">
+                <a class="navbar-brand  " href="index.html"><h1>Bethlehem Getachew</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto" >
+                        <li class="nav-item"><a class="nav-link is-active" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link is-active" href="family.html">FAMILY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Education.html">EDUCATION</a></li>
+                        <li class="nav-item"><a class="nav-link" href="childhood.html">CHILDHOOD</a></li>
+                        <li class="nav-item"><a class="nav-link" href="hobbies.html">HOBBIES</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
+    <!-- <main> -->
+        <div class="container">
+            <img class="img-fluid vh-75 vw-100 p-4" src="images/fampic2.jpg" alt="Our family picture" width="300" height="300">
+        </div>
+        <!-- <img class="img-fluid" src="images/fampic2.jpg" alt="Our family picture" width="300" height="300"> -->
+    <h2 class="text-center">Let me introduce you to my family...</h2>
+
+    
+    <section class="p-2">
+        <div class="container">
+            <div class="row g-3">
+                
+                <div class="col-md">
+                    <div class="card text-centered">
+                        <article>
+                            <img class="img-fluid" src="images/dad.jpg" alt="My dad's picture">
+                    
+                            <h3>Getachew Beyoro</h3>
+                            <p>
+                                Father of two, a dear friend/brother to many, a profound advisor, a bright mind 
+                                and a generous soul<br>
+                    
+                                Currently working as a Program Manager at <abbr title="International Livestock Reasearch Institute">ILRI</abbr>                    
+                            </p>
+                        </article>
+                    </div>
+                </div>    
+                
+                <div class="col-md">
+                    <div class="card text-centered">
+                        <article>
+                            <img  class="img-fluid" src="images/mom'spic.jpg" alt="My mom's picture">
+                    
+                            <h3>Bahritu Seyoum</h3>
+                            <p>
+                                Mother of two, one among 12 siblings, a happygiver, the most pleasant company to be around, a natural leader,
+                                down to earth, adventerous<br>
+                    
+                                Currently working as Plan and Program Manager at <abbr title="Menschen Fuer Menschen">MfM</abbr>
+                            </p>
+                    
+                        </article>
+                    </div>
+                </div> 
+                
+                <div class="col-md">
+                    <div class="card text-centered">
+                        <article>
+                            <img class="img-fluid mx-auto" src="images/brother.jpg" alt="My brother's picture">
+                    
+                            <h3>Elihu Getachew</h3>
+                            <p>The first-born, chillest person ever, humble, an inspiration, the heart of
+                                the party, genuine, but simply annoying for the most part<br>
+                    
+                                Currently a trainee at Ethiopian Aviation Academy
+                            </p>
+                        </article>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+    </section>
+    
         
-    <main>
-        <img id="bigfampic" src="images/fampic2.jpg" alt="Our family picture" width="300" height="300">
-    <h2>Let me introduce you to my family...</h2>
-    <article>
-        <img class="soloPics" src="images/dad.jpg" alt="My dad's picture" width="300" height="300">
+   
+    
 
-        <h3>Getachew Beyoro</h3>
-        <p>
-            Father of two, a dear friend/brother to many, a profound advisor, a bright mind 
-            and a generous soul<br>
-
-            Currently working as a Program Manager at <abbr title="International Livestock Reasearch Institute">ILRI</abbr> 
-
-        </p>
-    </article>
-    <article>
-        <img class="soloPics" src="images/mom'spic.jpg" alt="My mom's picture" width="300" height="300">
-
-        <h3>Bahritu Seyoum</h3>
-        <p>
-            Mother of two, one among 12 siblings, a happygiver, the most pleasant company to be around, a natural leader,
-            down to earth, adventerous<br>
-
-            Currently working as Plan and Program Manager at <abbr title="Menschen Fuer Menschen">MfM</abbr>
-        </p>
-
-    </article>
-    <article>
-        <img class="soloPics" src="images/brother.jpg" alt="My brother's picture" width="300" height="300">
-
-        <h3>Elihu Getachew</h3>
-        <p>The first-born, chillest person ever, humble, an inspiration, the heart of
-            the party, genuine, but simply annoying for the most part<br>
-
-            Currently a trainee at Ethiopian Aviation Academy
-        </p>
-
-    </article>
-
-    <h2>Home sweet home...</h2>
-    <figure>    
+    <h2 class="text-center p-3">Home sweet home...</h2>
+    <figure class="text-center p-3">    
         <video width="300" height="500" 
         autoplay loop muted preload="auto">   
     <source src="images/familyvideo.mp4" type="video/mp4">
@@ -70,14 +107,18 @@
 
     </main>
 
-    <footer>
+    <footer class="p-5 bg-light">
         <address>
-        <p>Contact Info</p>
-        tel: +25198745623120 <br>
-        email:<a href="mailto:bethlehemgech@gmail.com" target="_blank">bethlehemgech@gmail.com</a> 
-    </address> <br> <br>
-    <a href="https://www.instagram.com/_bethy.g_/" target="_blank">Instagram</a>
-    <a href="https://www.linkedin.com/in/bethlehem-getachew-80795b258/" target="_blank">LinkedIn</a>
+            <h3>Contact Info</h3>
+            tel: +25198745623120 <br>
+            email:<a class="px-2 link link-secondary" href="mailto:bethlehemgech@gmail.com" target="_blank">bethlehemgech@gmail.com</a> 
+        </address>
+        <a class="btn btn-tertiary" href="https://www.instagram.com/_bethy.g_/" target="_blank">Instagram</a>
+        <a class="btn btn-tertiary" href="https://www.linkedin.com/in/bethlehem-getachew-80795b258/" target="_blank">LinkedIn</a> 
     </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+    <script src="../bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
